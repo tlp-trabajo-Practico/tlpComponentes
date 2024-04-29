@@ -72,3 +72,11 @@
     color(srgb red #72ba00 blue);
     transition: 0.4s;
 }
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: rgb(15, 180, 133);
+    font-size: 30px;
+    padding: 0px 10px;
+}
