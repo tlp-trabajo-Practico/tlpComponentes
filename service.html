@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
     <head>
         <title> Servicio </title>
         <!-- Required meta tags -->
@@ -8,6 +8,7 @@
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
 
         <!-- Bootstrap CSS v5.2.1 -->
         <link
@@ -18,125 +19,90 @@
         />
     </head>
 
-    <body>
+    <body class="bg-black">
+      <style>
+        .form-control::placeholder{
+          color: rgba(var(--bs-success-rgb))
+        }
+      </style>
         <header>
-            <!-- place navbar here -->
+          <nav class="navbar bg-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand">Navbar</a>
+              <form class="d-flex mx-auto"  role="search">
+                <input class="form-control bg-dark text-success border-dark" type="search" placeholder="Buscador" aria-label="Search">
+              </form>
+            </div>
+          </nav>
+          <ul class="nav bg-success justify-content-center">
+            <li class="nav-item bg-transparent">
+              <a class="nav-link text-black" aria-current="page" href="#">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black" href="#">MARCAS SPONSOR</a>
+            </li>
+          </ul>
         </header>
-        <main class="d-flex justify-content-center ">
-          <div class="d-flex justify-content-start">
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed align-text-center" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                    <h4 >Marcas</h4>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                  <div class="accordion-body">
-                    <ul class="list-group">
-                      <li class="list-group-item">AMD</li>
-                      <li class="list-group-item">Nvidia</li>
-                      <li class="list-group-item">Republic Of Gamers</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item ">
-                <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                    <p class="text-end">Categorías</p>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                  <div class="accordion-body">
-                  <ul class="list-group">
-                      <li class="list-group-item">Equipos y Notebooks</li>
-                      <li class="list-group-item">Kits de Actualización</li>
-                      <li class="list-group-item">Procesadores</li>
-                      <li class="list-group-item">Mothers</li>
-                      <li class="list-group-item">Placas de Video</li>
-                      <li class="list-group-item">Memorias RAM</li>
-                      <li class="list-group-item">Almacenamiento</li>
-                      <li class="list-group-item">Refrigeración</li>
-                      <li class="list-group-item">Gabinetes</li>
-                      <li class="list-group-item">Fuentes</li>
-                      <li class="list-group-item">Monitores</li>
-                      <li class="list-group-item">Periféricos</li>
-                      <li class="list-group-item">Sillas Gamers</li>
-                      <li class="list-group-item">Conectividad</li>
-                      <li class="list-group-item">Estabilizadores y UPS</li>
-                      <li class="list-group-item">Consola de Video Juegos</li>
-                      <li class="list-group-item">Cables y Adaptadores</li>
-                      <li class="list-group-item">Celulares y Smartwatch</li>
-                      <li class="list-group-item">Impresoras e Insumos</li>
-                      <li class="list-group-item">Televisores</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
-        </div>
+        <main class="d-flex justify-content-center">
                   <!-- Tarjetas -->
-                  <div class="row col-8">
-                    <div class="col-sm-3 mb-3 mb-sm-0">
-                      <div class="card">
-                        <img src="assets/img/service/img1.jpg" class="card-img-top" alt="...">
+                  <div class="d-flex row col-8 flex-wrap">
+                    <div class="col-sm-6 col-lg-4 mt-4">
+                      <div class="card bg-dark">
+                        <img src="assets/img/service/img1.jpg" height="100%" width="50%" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Notebook Gamer Lenovo Legion 5 15ACH6A WQHD 2K 15.6" R5 5600H 16GB (2x8GB) 512GB SSD NVME RX6600M 8GB W11 165Hz Silver</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Notebook Gamer Lenovo Legion 5 15ACH6A 2K 15.6"</h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $1.169.990</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="card">
-                        <img src="assets/img/service/img2.jpg" class="card-img-top" alt="...">
+                    <div class="col-sm-6 col-lg-4 mt-4">
+                      <div class="card bg-dark">
+                        <img src="assets/img/service/img2.jpg" height="100%" width="50%" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Procesador Intel Core i5 14400F 4.7GHz Turbo Socket 1700 Raptor Lake</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Procesador Intel Core i5 14400F 4.7GHz </h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $309.900</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="card">
-                        <img src="assets/img/service/img3.jpg" class="card-img-top" alt="...">
+                    <div class="col-sm-6 col-lg-4 mt-4">
+                      <div class="card bg-dark">
+                        <img src="assets/img/service/img3.jpg" height="100%" width="50%" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Memoria Team DDR5 64GB (2x32GB) 6000Mhz T-CREATE EXPERT CL34 Black</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Memoria Team DDR5 64GB (2x32GB) 6000Mhz </h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $279.900</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="card">
-                        <img src="assets/img/service/img4.jpg" class="card-img-top" alt="...">
+                    <div class="col-sm-6 col-lg-4 mt-4">
+                      <div class="card bg-dark">
+                        <img src="assets/img/service/img4.jpg" height="100%" width="50%" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Placa de Video XFX Radeon RX 580 8GB GDDR5 GTS 2048SP</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Placa de Video XFX Radeon RX 580 8GB GDDR5</h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $185.000</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="card">
+                    <div class="col-sm-6 col-lg-4 mt-4" >
+                      <div class="card bg-dark">
                         <img src="assets/img/service/img5.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Fuente Cougar 750W 80 Plus Gold GEC750</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Fuente Cougar 750W 80 Plus Gold </h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $123.550</a>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-3">
-                      <div class="card">
+                    <div class="col-sm-6 col-lg-4 mt-4">
+                      <div class="card bg-dark">
                         <img src="assets/img/service/img6.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Memoria Team DDR5 32GB (2x16GB) 6400MHz T-Force Delta RGB Black CL40</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <h5 class="card-title text-success">Memoria Team DDR5 32GB (2x16GB) 6400MHz RGB Black CL40</h5>
+                          <a href="#" class="btn btn-success"><img src="assets/img/service/iconocomprar.png" width="20%" height="auto" alt=""> $173.250</a>
                         </div>
                       </div>
                     </div>
