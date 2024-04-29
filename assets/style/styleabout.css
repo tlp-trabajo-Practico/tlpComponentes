@@ -31,3 +31,22 @@
 .img2{
     margin-top: 10%
 }
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    color: #abdb25;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #72ba00;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: aliceblue;
+}
