@@ -22,32 +22,39 @@
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="#">Hidden brand</a>
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                      </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </header>
+            <nav class="navbar bg-transparent">
+              <div class="container-fluid row justify-content-center" >
+                <a class="navbar-brand col-2 p-0 m-0" href="#"> 
+                  <img src="assets/img/icono.png" class=" mx-auto" alt="Bootstrap" width="40%" height="100%">
+                </a>
+                <form class="col-8 " role="search">
+                  <input class="form-control form-control-lg bg-dark text-success border-dark" type="search" placeholder="Buscador" aria-label="Search">
+                </form>
+              </div>
+            </nav>
+            <ul class="nav bg-success justify-content-center">
+              <li class="nav-item bg-transparent">
+                <a class="nav-link text-black" aria-current="page" href="service.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="about.html">NOSOTROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="contact.html">CONTACTO</a>
+              </li>
+              <div class="dropdown">
+                <a class="btn btn-success dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  MARCAS SPONSOR
+                </a>
+              
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item bg-dark text-success" href="https://www.amd.com/es.html" target="_blank">AMD</a></li>
+                  <li><a class="dropdown-item bg-dark text-success" href="https://www.intel.la/content/www/xl/es/homepage.html" target="_blank">Intel</a></li>
+                  <li><a class="dropdown-item bg-dark text-success" href="https://www.asus.com/ar/" target="_blank">ASUS</a></li>
+                </ul>
+              </div>
+            </ul>
+          </header>
         <div class="content">
             <h1 class="logo">Contact <span>Us</span></h1>
     
@@ -94,10 +101,33 @@
                 </div>
             </div>
         </div>
-        <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>© 2017–2024 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-          </footer>
+        <footer>
+            <div class="container-fluid bg-dark mt-4 border-top border-success">
+                <footer class="py-5">
+                  <div class="row">
+                    <div class="col-12 col-md-6 mt-4">
+                      <h5 class="text-success text-center border-bottom border-success"> PÁGINAS WEB </h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2 text-center"><a href="#" class="nav-link p-0 text-success">YouTube</a></li>
+                        <li class="nav-item mb-2 text-center"><a href="#" class="nav-link p-0 text-success">Facebook</a></li>
+                        <li class="nav-item mb-2 text-center"><a href="#" class="nav-link p-0 text-success">Instagram</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 mt-4">
+                      <h5 class="text-success text-center border-bottom border-success">SECCIONES</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2 text-center"><a href="index.html" class="nav-link p-0 text-success">INICIO</a></li>
+                        <li class="nav-item mb-2 text-center"><a href="service.html" class="nav-link p-0 text-success">PRODUCTOS</a></li>
+                        <li class="nav-item mb-2 text-center"><a href="about.html" class="nav-link p-0 text-success">NOSOTROS</a></li>
+                      </ul>
+                    </div>
+              
+
+                  </div>
+              
+                  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top border-success">
+                    <p class="text-success">© 2024 PoloComponentes, Inc. Todos los derechos reservados.</p>
+        </footer>
     
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
