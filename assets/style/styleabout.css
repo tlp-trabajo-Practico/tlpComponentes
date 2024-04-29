@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(17, 18, 17);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width:40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    border: solid #72ba00;
+    border-radius: 5px;
+}
+.img2{
+    margin-top: 10%
+}
