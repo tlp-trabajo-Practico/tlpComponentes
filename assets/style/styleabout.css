@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(17, 18, 17);
+}
+.container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content-section{
+    float: left;
+    width: 55%;
+}
+.image-section{
+    float: right;
+    width:40%;
+}
+.image-section img{
+    width: 100%;
+    height: auto;
+    border: solid #72ba00;
+    border-radius: 5px;
+}
+.img2{
+    margin-top: 10%
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: Helvetica, sans-serif;
+    color: #abdb25;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color: #72ba00;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: aliceblue;
+}
+.content-section .content .button{
+    margin-top: 30px;
+}
+.content-section .content .button a{
+    background-color: #72ba00;
+    padding: 12px 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    letter-spacing: 1.5px;
+    font-family: Helvetica, sans-serif;
+}
+.content-section .content .button a:hover{
+    background-color: black;
+    color: #72ba00;
+    transition: 0.4s;
+}
+.button:hover{
+    background-color: black
+    color(srgb red #72ba00 blue);
+    transition: 0.4s;
+}
+.content-section .social{
+    margin: 40px 40px;
+}
+.content-section .social i{
+    color: rgb(15, 180, 133);
+    font-size: 30px;
+    padding: 0px 10px;
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float: left;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 18px;
+    }
+    .content-section .button{
+        text-align: center;
+    }
+    .content-section .button a{
+        padding: 9px 30px;
+    }
+    .content-section .social{
+        text-align: center;
+    }
+    .image-section{
+        float: none;
+        width: 100%;
+    }
+    .image-section img{
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+.nav-item{
+    color: #72ba00;
+}
